@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(240, 248, 255);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 3%;
+}
+
+.navbar {
+    background-color: rgb(55, 83, 88);
+    height: 8vh;
+    margin: -15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 5px;
+    padding: 0;
+    width: 10%;
+    height: 8vh;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.navlänk {
+    color: rgb(205, 204, 204);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 7vh;
+    display: block; 
+
+}
+
+.navlänk:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.main {
+    font-size: 60px;
+}
+
+.flexbox {
+    display: flex;
+    width: 100%;
+}
+
+.divstil {
+    border: 5px solid;
+    border-style: outset;
+    border-width: 15px;
+    border-color: rgb(97, 138, 145);
+    background-color:rgb(209, 226, 228);
+    margin: 2%;
+    width: 50%;
+    padding: 10px
+}
+
+.bildidiv {
+    height:20%;  
+}
+
+.headerbild {
+    width: 100%;
+    height: auto;
+}
