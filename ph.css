@@ -1,6 +1,6 @@
 body {
     background-color: rgb(240, 248, 255);
-    background-image: url("offwhite-bakgrund2.jpg");
+    background-image: url("images/offwhite-bakgrund2.jpg");
     background-size: 100%;
     background-repeat: repeat;
 
@@ -66,8 +66,6 @@ body {
     transition: 0.1s ease, 0.1s;
     
 }
-
-
 
 .flexbox {
     display: flex;
