@@ -1,20 +1,30 @@
 body {
     background-color: rgb(240, 248, 255);
+    background-image: url("offwhite-bakgrund2.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
 }
 
-h1 {
+ 
+.header {
     text-align: center;
     font-style: bold;
-    font-size: 40px;
     text-decoration: underline;
+    font-size: 3rem;
     margin: 3%;
+    margin-top: 40px;
+}
+
+#huvudrubrik {
+    font-size: 4rem;
 }
 
 .navbar {
     background-color: rgb(55, 83, 88);
-    height: 8vh;
+    height: clamp(2rem, 8vh, 40rem);
     margin: -15px;
     display: flex;
     align-items: center;
@@ -24,7 +34,6 @@ h1 {
     margin: 5px;
     padding: 0;
     width: 10%;
-    height: 8vh;
     display: inline-block;
     overflow: hidden;
 }
@@ -32,16 +41,24 @@ h1 {
 .navlänk {
     color: rgb(205, 204, 204);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2vw;
     text-align: center;
     line-height: 7vh;
     display: block; 
 
 }
 
+.nuvarande_sida {
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
 .navlänk:hover {
     color: white;
     text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.1s ease, 0.1s;
+    
 }
 
 .sticky {
@@ -61,19 +78,28 @@ h1 {
 }
 
 .divstil {
-    border: 5px solid;
-    border-style: outset;
-    border-width: 15px;
+    border: 0.5vh solid;
+    border-style: inset;
+    border-width: clamp(0.5rem, 3vh, 5vh);
     border-color: rgb(97, 138, 145);
     background-color:rgb(209, 226, 228);
     margin: 2%;
     margin-top: 10vh;
     width: 50%;
-    padding: 10px
+    height: ;
+    padding: 1vh;
 }
 
 .bildidiv {
     height:20%;  
+}
+
+.divstil:hover {
+    transform: scale(1.05);
+    transition: 0.1s ease, 0.1s;
+    border-style: outset;
+    border-color: rgb(129, 171, 179);
+    box-shadow: 5px 5px 5px grey;
 }
 
 .headerbild {
@@ -81,10 +107,10 @@ h1 {
     height: auto;
 }
 
-#bildpaband {
-    width: 80vh;
-    height: auto;
-    align-items: center;
-    margin: 3%;
+#bildpåenpil {
+    width: 10%;
+}
 
+.heldiv {
+    width: 100%;
 }
