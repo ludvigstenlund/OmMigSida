@@ -7,11 +7,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
 }
-
  
 .header {
     text-align: center;
-    font-style: bold;
+    font-weight: bold;
     text-decoration: underline;
     font-size: 3rem;
     margin: 3%;
@@ -20,6 +19,13 @@ body {
 
 #huvudrubrik {
     font-size: 4rem;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .navbar {
@@ -41,7 +47,7 @@ body {
 .navlänk {
     color: rgb(205, 204, 204);
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.8vw;
     text-align: center;
     line-height: 7vh;
     display: block; 
@@ -61,16 +67,7 @@ body {
     
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-}
 
-#huvudrubrik {
-    font-size: 60px;
-}
 
 .flexbox {
     display: flex;
@@ -86,12 +83,7 @@ body {
     margin: 2%;
     margin-top: 10vh;
     width: 50%;
-    height: ;
     padding: 1vh;
-}
-
-.bildidiv {
-    height:20%;  
 }
 
 .divstil:hover {
@@ -102,15 +94,18 @@ body {
     box-shadow: 5px 5px 5px grey;
 }
 
-.headerbild {
+.heldiv {
+    width: 100%;
+}
+
+.bildidiv {
+    height:20%;  
+}
+#bildpåAlwin {
     width: 100%;
     height: auto;
 }
 
 #bildpåenpil {
     width: 10%;
-}
-
-.heldiv {
-    width: 100%;
 }
